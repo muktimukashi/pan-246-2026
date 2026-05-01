@@ -574,7 +574,7 @@ body.show-nav .top-bar {
 .performance-panel,
 .rundown-panel,
 .venue-panel {
-  background: linear-gradient(to bottom, rgba(2, 7, 19, 0.1), rgba(2, 7, 19, 0.72));
+  background: transparent;
 }
 
 .section-heading {
@@ -613,11 +613,8 @@ body.show-nav .top-bar {
   padding: clamp(26px, 5vw, 48px);
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 8px;
-  background:
-    linear-gradient(135deg, rgba(246, 195, 91, 0.2), transparent 38%),
-    linear-gradient(to top, rgba(2, 5, 14, 0.92), rgba(10, 26, 57, 0.55)),
-    var(--performance-image, url("246/Adu Pantun.jpeg")) center/cover;
-  box-shadow: var(--shadow);
+  background: var(--performance-image, url("246/Adu Pantun.jpeg")) center/cover;
+  box-shadow: none;
   text-shadow: 0 4px 24px rgba(0, 0, 0, 0.75);
   transition: background 0.35s ease;
 }
@@ -626,8 +623,8 @@ body.show-nav .top-bar {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 35% 20%, rgba(255, 255, 255, 0.28), transparent 28%);
-  opacity: 0.48;
+  background: none;
+  opacity: 0;
 }
 
 .performance-spotlight.is-changing {
@@ -699,11 +696,11 @@ body.show-nav .top-bar {
   padding: 16px 18px;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 8px;
-  background: rgba(7, 16, 38, 0.5);
+  background: transparent;
   color: #fff;
   text-align: left;
   cursor: pointer;
-  backdrop-filter: blur(8px);
+  backdrop-filter: none;
   transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
 }
 
@@ -760,9 +757,9 @@ body.show-nav .top-bar {
   padding: 22px 18px;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.14);
-  background: rgba(7, 16, 38, 0.5);
-  backdrop-filter: blur(8px);
-  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.22);
+  background: transparent;
+  backdrop-filter: none;
+  box-shadow: none;
 }
 
 .rundown-item time {
@@ -793,8 +790,8 @@ body.show-nav .top-bar {
   min-height: 420px;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 8px;
-  background: rgba(3, 8, 20, 0.58);
-  box-shadow: var(--shadow);
+  background: transparent;
+  box-shadow: none;
 }
 
 .map-wrap iframe {
