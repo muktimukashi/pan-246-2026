@@ -756,7 +756,7 @@ body.show-nav .top-bar {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 22px 18px;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.14);
