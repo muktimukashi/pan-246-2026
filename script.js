@@ -12,8 +12,8 @@ const performanceSpotlight = document.getElementById("performanceSpotlight");
 
 const fadeElements = document.querySelectorAll(".scroll-fade");
 
-const captionStartTime = 8;
-const contentStartTime = 8;
+const captionStartTime = 7;
+const contentStartTime = 7;
 const introFadeDuration = 2200;
 
 let introPlayed = false;
